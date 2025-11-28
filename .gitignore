@@ -1,0 +1,76 @@
+﻿# 构建目录
+build/
+bin/
+lib/
+out/
+cmake-build-*/
+
+# IDE 配置文件
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# 编译输出
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# 资源文件 (大文件使用 Git LFS)
+assets/textures/**/*.png
+assets/textures/**/*.jpg
+assets/audio/**/*.ogg
+assets/audio/**/*.mp3
+assets/audio/**/*.wav
+assets/fonts/**/*.ttf
+assets/fonts/**/*.otf
+
+# 保留资源目录结构
+!assets/textures/.gitkeep
+!assets/audio/.gitkeep
+!assets/fonts/.gitkeep
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CMake 缓存
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# 文档生成
+docs/api/html/
+docs/api/latex/
+
+# 测试输出
+Testing/
+*.test
+test_results/
+
+# 性能分析
+*.prof
+*.perf

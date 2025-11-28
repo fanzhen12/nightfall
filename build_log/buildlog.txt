@@ -1,0 +1,172 @@
+PS D:\ProjectNightfall\nightfall\build> cmake --build .
+适用于 .NET Framework MSBuild 版本 17.14.14+a129329f1
+
+  SheenBidi.vcxproj -> D:\ProjectNightfall\nightfall\build\_deps\sheenbidi-build\SheenBidi.dir\Debug\SheenBidi.lib
+  ogg.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\oggd.lib
+  FLAC.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\FLACd.lib
+  freetype.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\freetyped.lib
+  harfbuzz.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\harfbuzzd.lib
+  sfml-system.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\sfml-system-s-d.lib
+  vorbis.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\vorbisd.lib
+  vorbisenc.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\vorbisencd.lib
+  vorbisfile.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\vorbisfiled.lib
+  sfml-audio.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\sfml-audio-s-d.lib
+  sfml-window.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\sfml-window-s-d.lib
+  sfml-graphics.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\sfml-graphics-s-d.lib
+  spdlog.vcxproj -> D:\ProjectNightfall\nightfall\build\external\spdlog\Debug\spdlogd.lib
+  Application.cpp
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(12,1): error C2512: “sf::Text”: 没有合适的默认构造函数可用 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+      D:\ProjectNightfall\nightfall\external\SFML\include\SFML\Graphics\Text.hpp(60,25):
+      参见“sf::Text”的声明
+
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,5): error C3927: "->": 非函数声明符后不允许尾随返回类型 [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,17): error C3484: 语法错误: 返回类型前应为“->” [D:\ProjectNightfall\nigh
+tfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,18): error C3613: “->”后缺少返回类型(假定为“int”) [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [D:\Proj
+ectNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,18): error C2146: 语法错误: 缺少“;”(在标识符“setSize”的前面) [D:\ProjectNi
+ghtfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,5): error C3927: "->": 非函数声明符后不允许尾随返回类型 [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,17): error C3484: 语法错误: 返回类型前应为“->” [D:\ProjectNightfall\nigh
+tfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,18): error C3613: “->”后缺少返回类型(假定为“int”) [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [D:\Proj
+ectNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,5): error C2086: “int nightfall::m_testPlayer”: 重定义 [D:\Proje
+ctNightfall\nightfall\build\ProjectNightfall.vcxproj]
+      D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,5):
+      参见“nightfall::m_testPlayer”的声明
+
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(36,18): error C2146: 语法错误: 缺少“;”(在标识符“setFillColor”的前面) [D:\Proj
+ectNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,5): error C3927: "->": 非函数声明符后不允许尾随返回类型 [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,17): error C3484: 语法错误: 返回类型前应为“->” [D:\ProjectNightfall\nigh
+tfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,18): error C3613: “->”后缺少返回类型(假定为“int”) [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [D:\Proj
+ectNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,5): error C2086: “int nightfall::m_testPlayer”: 重定义 [D:\Proje
+ctNightfall\nightfall\build\ProjectNightfall.vcxproj]
+  Time.cpp
+      D:\ProjectNightfall\nightfall\src\core\Application.cpp(35,5):
+      参见“nightfall::m_testPlayer”的声明
+
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(37,18): error C2146: 语法错误: 缺少“;”(在标识符“setPosition”的前面) [D:\Proje
+ctNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(40,6): error C2653: “Application”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(43,12): error C2065: “m_isRunning”: 未声明的标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(43,27): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(45,27): error C2065: “m_clock”: 未声明的标识符 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(52,9): error C3861: “processEvents”: 找不到标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(53,9): error C3861: “update”: 找不到标识符 [D:\ProjectNightfall\nightf
+all\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(54,9): error C3861: “render”: 找不到标识符 [D:\ProjectNightfall\nightf
+all\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(60,6): error C2653: “Application”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(61,45): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(63,13): error C2065: “m_isRunning”: 未声明的标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(64,13): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(68,17): error C2065: “m_isRunning”: 未声明的标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(72,17): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(72,23): error C3861: “togglePause”: 找不到标识符 [D:\ProjectNightfall\
+nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(73,17): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(73,17): error C3861: “isPaused”: 找不到标识符 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(77,34): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(77,40): error C3861: “getTimeScale”: 找不到标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(79,17): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\nig
+htfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(79,23): error C3861: “setTimeScale”: 找不到标识符 [D:\ProjectNightfall
+\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(86,6): error C2653: “Application”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(88,5): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\nigh
+tfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(92,5): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNight
+fall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(95,9): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNight
+fall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(98,9): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNight
+fall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(101,9): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNigh
+tfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(104,9): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNigh
+tfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(108,5): error C2065: “m_testPlayer”: 未声明的标识符 [D:\ProjectNightfal
+l\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(108,23): error C2065: “m_playerVelocity”: 未声明的标识符 [D:\ProjectNig
+htfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(111,24): error C2065: “m_testPlayer”: 未声明的标识符 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(112,25): error C2065: “m_testPlayer”: 未声明的标识符 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(113,31): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\n
+ightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(120,5): error C2065: “m_testPlayer”: 未声明的标识符 [D:\ProjectNightfal
+l\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(123,6): error C2653: “Application”: 不是类或命名空间名称 [D:\ProjectNightf
+all\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(126,13): error C2653: “Time”: 不是类或命名空间名称 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(126,19): error C3861: “getTimeOfDay”: 找不到标识符 [D:\ProjectNightfal
+l\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(126,31): error C2050: switch 表达式不是整型  [D:\ProjectNightfall\night
+fall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(127,14): error C2653: “TimeOfDay”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(127,25): error C2065: “Day”: 未声明的标识符 [D:\ProjectNightfall\nightf
+all\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(130,14): error C2653: “TimeOfDay”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(130,25): error C2065: “Dusk”: 未声明的标识符 [D:\ProjectNightfall\night
+fall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(133,14): error C2653: “TimeOfDay”: 不是类或命名空间名称 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(133,25): error C2065: “Night”: 未声明的标识符 [D:\ProjectNightfall\nigh
+tfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(138,5): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(141,5): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(141,19): error C2065: “m_testPlayer”: 未声明的标识符 [D:\ProjectNightfa
+ll\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(146,5): error C2065: “m_window”: 未声明的标识符 [D:\ProjectNightfall\ni
+ghtfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(127,25): error C2051: case 表达式不是常量 [D:\ProjectNightfall\nightfal
+l\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(130,25): error C2051: case 表达式不是常量 [D:\ProjectNightfall\nightfal
+l\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(133,25): error C2051: case 表达式不是常量 [D:\ProjectNightfall\nightfal
+l\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(136,5): warning C4060: switch 语句没有包含“case”或“default”标签 [D:\Proje
+ctNightfall\nightfall\build\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(149,1): error C2059: 语法错误:“}” [D:\ProjectNightfall\nightfall\bui
+ld\ProjectNightfall.vcxproj]
+D:\ProjectNightfall\nightfall\src\core\Application.cpp(149,1): error C2143: 语法错误: 缺少“;”(在“}”的前面) [D:\ProjectNightfall\n
+ightfall\build\ProjectNightfall.vcxproj]
+  main.cpp
+  正在生成代码...
+  sfml-main.vcxproj -> D:\ProjectNightfall\nightfall\build\external\SFML\lib\Debug\sfml-main-d.lib
